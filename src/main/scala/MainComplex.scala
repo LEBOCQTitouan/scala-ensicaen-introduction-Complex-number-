@@ -3,7 +3,7 @@ object MainComplex {
     println("test display")
     val rand = new scala.util.Random
     for( x <- 1 to 10){
-      var c: Complex = Complex(rand.nextInt(), rand.nextInt())
+      val c: Complex = Complex(rand.nextInt(), rand.nextInt())
       println(s"\t${c}")
     }
   }
